@@ -8,4 +8,4 @@ Interfaces are best for defining the shape of objects . Types, on the other hand
 **any vs unknown vs never:**  
 The `any` type disables type checking, making your code unsafe by default if we didn't give type typescript infer this as any type. Use `unknown` when the type isn't known and in future you'll be forced to do type checks before using it. The `never` type indicates that something should never happen.
 
-Using these features thoughtfully will make your code more robust, safer, and easier to maintain.
+Using these features thoughtfully will make your code more safer and easier to maintain.
